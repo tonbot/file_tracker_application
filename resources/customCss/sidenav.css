@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title
+{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 18px;
+    font-size:22px;
+    border-bottom: 1px solid white;
+}
+.menu
+{
+    text-align: center;
+ 
+}
+.side-nav
+{
+ 
+    background-color:rgb(21, 37, 21);;
+    color:#fff;
+    padding:0px;
+   
+    
+}
+.side-nav ul 
+{
+   list-style: none;
+   padding-top:40px;
+  
+}
+
+.side-nav ul a{
+   text-decoration: none;
+
+}
+.side-nav ul a li {
+      padding-left:40px;
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    font-size: 13px;
+   
+
+}
+.side-nav ul a li:hover
+{
+    background-color:#bb3b30 ;
+    color: #eee;   
+
+}
+.fa
+{
+  margin-right:5px;
+}
+.advance{
+    padding-left:40px;
+    font-size:10px;
+}
+.profile
+{
+   text-align: center;
+   color:#fff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+#count
+{
+  color:yellow;
+ 
+
+}
+.profile:hover{
+    background-color:#49DE2F;
+  
+}
+#dashboard{
+    display: none;
+}
+#enumeration{
+    display: none;
+}
+#propertySearch{
+    display: none;
+}
+#printBills{
+    display: none;
+}
+#printReceipt{
+    display: none;
+}
+
+#usersManagement{
+    display: none;
+}
+#titleMain{
+    text-align:center;
+    background-color:#bb3b30;
+    color: #eee;
+    padding-top:8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 480px) {
+    .side-nav /*  side nav styling*/   
+    {
+         position: absolute;
+         top: 0;
+         width: 60%;
+         height: 100vh;
+         z-index: 100000;
+         background-color:#DD3224;
+         color:#fff;
+         padding:0px;
+         box-shadow: 200px 3px 2px rgba(0, 0, 0, 0.3);
+         display: none;
+      /*  display: hidden;*/    
+    }
+}

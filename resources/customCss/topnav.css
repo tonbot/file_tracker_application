@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+    overflow-x:hidden;
+
+}
+.topnav{
+    margin-bottom: 0px;
+}
+.admin
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:  bold;
+    font-size: 20px;
+    position: relative;
+    left: 40;
+    top:15;
+}
+.adminlist{
+    display: flex;
+    list-style: none;
+    position: relative;
+    left:90%;
+    top:-15px;
+}
+.profiles{
+    background-color: rgb(21, 37, 21) !important;
+    color: #eee !important;
+
+}
+.profileContainer
+{ 
+    display: none;
+   position:absolute;
+   left:65vw;
+   top:50px;
+   z-index: 400;
+   list-style-type: none;
+   background-color:#fff;
+   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.profileContainer li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #000;
+}
+.profileContainer li:hover
+{
+   background-color: rgb(220, 231, 228);
+   cursor: pointer;
+   border-radius: 5px;
+ 
+}
+.mchildren{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+  .fa-bars{
+      display: none;
+  }
+
+/* mobile styling starts here */
+@media (max-width: 480px) {
+.admin{
+    font-size: 13px;
+}
+#greeting{
+    font-size: 13px;
+}
+.fa-bars{
+    display: block;
+    position: relative;
+    top:10;
+    left:-10
+}
+.fa-bars:hover {
+ 
+    color: #bb3b30;
+}
+.pro{
+    display: block !important;
+    position: absolute;
+    top:11px;
+    left:-50px;
+}
+
+.mchildren{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+}

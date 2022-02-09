@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+.secondCol
+    {
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: #e5e5e5;
+        margin-top: 0px;
+    }
+.motherContainer
+    {
+        height:100vh;
+        
+    }
+.section2Container
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #e5e5e5;
+        height: 100%;
+        margin-top: 0px;
+        position:relative ;
+        top:-10px;
+        padding-top: 40px;
+
+    }
+   
+.hasChildren
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #fff;
+        border-top-right-radius:0px ;
+        border-top-left-radius:0px ;
+    }
+
+    .itemMother
+    {
+        width:100%;
+        height:auto;
+        background-color:white;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        margin-right: 0px;
+        margin-left: 40px;
+      
+        border-radius: 10px;
+    
+    }
+    .itemMother:hover
+    {
+        background-color: #923c34 !important; 
+        color:#fff !important;
+    }
+    .itemsContainer
+    { 
+        padding: 50px;
+        padding-left: 90px;
+    }
+    .itemsContainer .row 
+    {
+      margin-top: 20px;
+      margin-bottom: 30px; 
+    }
+
+ .itemMother h5 {
+     font-weight: bold;
+     
+ }
+  
+ @media (max-width: 480px) {
+    .itemMother /*  display: hidden;*/ 
+    {
+        width:70%;
+        height:auto;
+        background-color:white;
+        padding-bottom: 30px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
+      .row 
+    {
+      margin-bottom: 0px !important; 
+    }
+    .section2Container
+    {
+      
+        padding-top: 10px;
+
+    }
+}

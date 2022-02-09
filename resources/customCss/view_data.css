@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+
+.motherContainer
+    {
+        height:100vh;
+    }
+.secondCol
+    {
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: #c5c5c5;
+    }
+.btnContainer
+{
+        text-align: center;
+        padding-bottom: 20px;
+        
+}
+.btnContainer ul 
+{
+     list-style:none;
+     display: flex;
+     text-align: center;
+     position: relative;
+     left: 25%;
+
+}
+.btnContainer ul li
+{
+     list-style:none;
+     display: flex;
+     margin-right:30px;
+}
+.btnGenerateBill
+{
+  background-color: #DD3224;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+  outline: 0px;
+  border: none;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+.back
+{
+  background-color:#099091 ;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+  outline: 0px;
+  border: none;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+.btnGenerateBill:focus
+{
+    outline:0px;
+    border: 0px;
+}
+.back:focus
+{
+    outline:0px;
+    border: 0px;
+}
+.tableContainer
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    
+
+}
+table th 
+    {
+        font-size: 12px;
+    }
+table td
+    {
+        font-size: 12px;
+    }

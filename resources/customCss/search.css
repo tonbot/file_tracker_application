@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+.secondCol
+    {
+        padding: 0px;
+       overflow-x: hidden;
+        background-color: #c5c5c5;
+        margin-top: 0px;
+     
+    }
+.motherContainer
+    {
+        height:100vh;
+        
+    }
+.section2Container
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #c5c5c5;
+        height: 100%;
+        margin-top: 0px;
+        position:relative ;
+        top:-10px;
+        padding-top: 40px;
+
+    }
+    .hasChildren
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #fff;
+      
+    }
+    .SearchTitle{
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight:bold;
+        padding-left: 40px;
+        padding-bottom: 20px;
+             
+    }
+    .SearchTitle > span {
+        border-bottom: 4px solid #DD3224;
+        padding-bottom:5px;
+        margin-bottom:10px;
+    }
+    .tableContainer
+{
+    
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    
+    
+
+}
+table th 
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+table td
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+    .btnContainer
+{
+        text-align: center;
+        padding-bottom: 20px;
+        
+}
+.btnContainer ul 
+{
+     list-style:none;
+     display: flex;
+     text-align: center;
+     position: relative;
+     left: 15%;
+
+}
+.btnContainer ul li
+{
+     list-style:none;
+     display: flex;
+     margin-right:30px;
+}
+.btnMapLocation
+{
+  background-color: #099091;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  outline: 0px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+.back
+{
+  background-color:#099091 ;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  outline: 0px;
+  border: none;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+.editProperty
+{
+  background-color:#DD3224 ;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  outline: 0px;
+  border: none;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+.btnMapLocation:focus
+{
+    outline:0px;
+    border: 0px;
+}
+.back:focus
+{
+    outline:0px;
+    border: 0px;
+}
+.editProperty
+{
+    outline:0px;
+    border: 0px;
+}
+.nav {
+    font-size: 12px !important;
+}
+ul{
+    padding-left: 20px;
+}
+.details{
+    font-size: 14px ;
+    font-weight: bold;
+    line-height: 30px;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.detailsValue{
+    font-size: 12px ;
+    font-weight: bold;
+    line-height: 30px;
+}
+.modal-form-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.modal-form-container form label {
+    font-size: 13px;
+    padding-top:10px;
+
+}
+.footer{
+    padding-bottom:30px;
+    padding-top:30px;
+    
+
+}
+.generate {
+  background-color:#099091 ;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  outline: 0px;
+  border:  none;
+  text-align: center;
+  font-weight: bold;
+   font-size: 12px;
+}
+.generate:focus
+{
+    outline:0px;
+
+}
+.generate:hover
+{
+    background-color: #DD3224; 
+}
+/* mobile styling starts here */
+@media (max-width: 480px) {
+    .btnContainer
+    {
+            padding-bottom: 5px;     
+    }
+    .btnContainer ul 
+{
+     position: relative;
+     left:45;
+     top:-10;
+}
+    .btnContainer ul li
+{
+     margin-right:20px;
+}
+.btnMapLocation
+{
+  display: none;
+}
+.back
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.editProperty{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+ }
+ .tableContainer
+ { 
+     padding-right: 15px;
+     padding-top: 10px;
+     padding-bottom: 40px;
+     background-color: #fff;
+     max-width: 100vw;
+     overflow-x: scroll;
+ }
+
+}

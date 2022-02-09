@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.motherContainer
+    {
+        height:100vh;
+    }
+.secondCol
+    {
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: #c5c5c5;
+        height:100vh;
+
+    }
+.btnContainer
+{
+        text-align: center;
+        padding-bottom: 20px;
+        
+}
+.btnContainer ul 
+{
+     list-style:none;
+     display: flex;
+     text-align: center;
+     position: relative;
+     left: 8%;
+
+}
+.btnContainer ul li
+{
+     list-style:none;
+     display: flex;
+     margin-right:0px;
+}
+.btnGenerateBill
+{
+  background-color: #DD3224;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  outline: 0px;
+  border: none;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+}
+.SearchTitle{
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    
+    
+}
+.SearchTitle > span {
+    border-bottom: 4px solid #DD3224;
+    padding-bottom:5px
+}
+
+
+.tableContainer
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    margin-left: 0px;
+}
+table th 
+    {
+        font-size: 12px;
+    }
+table td
+    {
+        font-size: 12px;
+    }
+ @media (max-width: 500px) {
+
+    .tableContainer
+    {
+     max-width: 500vw;
+     overflow-x: scroll;
+    }
+    #hisChildren{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

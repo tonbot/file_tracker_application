@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+.secondCol
+    {
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: #c5c5c5;
+        margin-top: 0px;
+    }
+.motherContainer
+    {
+        
+    
+    }
+.section2Container
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #c5c5c5;
+        height: 100%;
+        margin-top: 0px;
+        position:relative ;
+        top:-10px;
+        padding-top: 40px;
+
+    }
+    .SearchTitle{
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight:bold;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        
+        
+    }
+    .SearchTitle > span {
+        border-bottom: 4px solid #DD3224;
+        padding-bottom:5px
+    }
+    .hasChildren
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #fff;
+        border-top-right-radius:20px ;
+        border-top-left-radius:20px ;
+        border-bottom-right-radius:20px ;
+        border-bottom-left-radius:20px ;
+    }
+    .rowContainer
+    {
+        padding-top: 20px;
+        padding-right: 25px;
+    }
+    .row .col-sm-4 > label 
+    {
+        font-size: 12px;
+        margin-top:10px;
+
+    }
+    
+    .update
+    {
+      background-color:#DD3224 ;
+      color:#fff;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-right: 40px;
+      padding-left: 40px;
+      padding-bottom: 10px;
+      outline: 0px;
+      border: none;
+      text-align: center;
+      font-family: 'Muli', sans-serif;
+       font-size: 15px;
+      border-radius: 10px;
+    }
+    
+.tableContainer
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    margin-left: 0px;
+}
+table th 
+    {
+        font-size: 12px;
+        background-color: #DD3224;
+        color:#fff;
+    }
+table td
+    {
+        font-size: 12px;
+    }
+    #feedmessage
+    {
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Quicksand', sans-serif;
+    }
+#property-modal{
+    border-radius: 30px !important;
+    padding: 0px !important;
+}
+.dataTables_info{
+    font-size: 13px !important;
+ 
+}
+.dataTables_paginate{
+    font-size: 13px !important;
+ 
+}
+.dataTables_filter{
+    font-size: 13px !important;
+ 
+}
+.dataTables_length{
+    font-size: 13px !important;
+ 
+}
+#errorMessages{
+    position: absolute;
+    left:80%;
+    top:20px;
+    background-color: #DD3224;
+    color:white;
+    font-size: 13px;
+    display:none;
+
+}
+.dspin{
+  
+}

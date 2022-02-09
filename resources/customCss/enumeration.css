@@ -1,0 +1,54 @@
+.secondCol
+{
+  padding: 0px;
+  overflow-x: hidden;
+}
+      
+.lgaContainer
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #e5e5e5;   
+    margin-bottom: 10px;
+}
+
+.lgaContainer 
+{
+    text-align: center;  
+  
+}
+
+.lgaContainer :nth-child(1)
+{     
+    padding-top:20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lgaContainer :nth-child(2)
+{
+    font-size: 12px;
+}
+
+.lgaContainer :nth-child(3)
+{
+  background-color: #099091;
+  color:#fff;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  width:100%;
+  outline: 0px;
+  border: none;
+}
+.lgaContainer :nth-child(3):hover
+{
+    background-color: #DD3224;
+}
+.lgaListRow
+{
+    padding-left: 25px; 
+    padding-right: 25px;   
+}
+

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+.secondCol
+    {
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: #c5c5c5;
+        margin-top: 0px;
+    }
+.motherContainer
+    {
+        height:100vh;
+        
+    }
+.section2Container
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #c5c5c5;
+        height: 100%;
+        margin-top: 0px;
+        position:relative ;
+        top:-10px;
+        padding-top: 40px;
+
+    }
+   
+.hasChildren
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #fff;
+        border-top-right-radius:0px ;
+        border-top-left-radius:0px ;
+    }
+.hasChildren ul 
+    {
+        display: flex;
+        list-style: none;
+        position: relative;
+        top:20px;
+        left:-40px;
+
+    }
+.hasChildren ul li
+    {
+        margin-left:40px;
+    }
+.hasChildren ul li button
+    {
+        background-color: rgb(21, 37, 21);
+        color:yellow;
+        padding-top: 8px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 8px;
+        outline: 0px;
+        border: none;
+        text-align: center;
+        font-size: 15px;
+        font-family:  sans-serif;
+        font-weight: bold;
+    }
+       
+.hasChildren2
+{
+    margin-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    border-top-right-radius:0px ;
+    border-top-left-radius:0px ;
+    display:none;
+}
+.hasChildren2 button
+    {
+        background-color: rgb(21, 37, 21);
+        margin-top: 20px;
+        color:yellow;
+        padding-top: 8px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 8px;
+        outline: 0px;
+        border: none;
+        text-align: center;
+        font-size: 15px;
+        font-family:  sans-serif;
+        font-weight: bold;
+        
+    }
+.row .col-sm-4 > label 
+{
+    font-size: 12px;
+    margin-top:10px;
+
+}
+input[type="text"]{
+    font-weight: bold;
+    font-size: 13px;
+}
+#sending_to{
+    font-weight: bold;
+    font-size: 13px;
+}
+    #search{
+        background-color: #099091;
+    }
+    
+    #inputSearch {
+               
+        padding-top: 15px;     
+        padding-bottom: 15px;
+        padding-right:200px !important;
+    }
+    .searchTitle{
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight:bold;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        
+        
+    }
+    .searchTitle > span {
+        border-bottom: 4px solid rgb(21, 37, 21);;
+        padding-bottom:5px
+    }
+
+
+     
+ @media (max-width: 480px) {
+.hasChildren ul li button
+    {
+        background-color: #DD3224;
+        position: relative;
+        top: 50;
+        left:-230px;
+        margin-top:30px;
+        margin-bottom: 30px;
+        color:#fff;
+    
+ }
+
+ #inputSearch {         
+    padding-top: 15px;     
+    padding-bottom: 15px;
+    padding-right:00px !important;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+}
+.searchTitle{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+#displayMessage{
+    width:50vw !important; 
+    font-size: 13 !important;
+}
+#receiptNumber{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+    position: relative;
+    top: 50;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+}
